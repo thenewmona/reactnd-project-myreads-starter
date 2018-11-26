@@ -15,3 +15,5 @@ function BookShelf(props) {
     </div>
   );
 }
+
+export default BookShelf;

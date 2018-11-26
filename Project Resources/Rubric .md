@@ -5,9 +5,9 @@ MyReads: A Book Lending App
 
 # Application Setup SPECIFICATIONS
 
-[]Is the application easy to install and start?
+[x]Is the application easy to install and start?
 
-[]The application was created with create-react-app and requires only npm install and npm start to get it installed and launched.
+[x]The application was created with create-react-app and requires only npm install and npm start to get it installed and launched.
 
 []Does the application include README with clear installation and launch instructions?
 
@@ -17,26 +17,26 @@ MyReads: A Book Lending App
 
 # Main Page SPECIFICATIONS
 
-[]Does the main page show three categories (or “bookshelves”) for books (currently reading, want to read, and read)?
+[x]Does the main page show three categories (or “bookshelves”) for books (currently reading, want to read, and read)?
 
-[]The main page shows 3 shelves for books. Each book is shown on the correct shelf, along with its title and author(s).
+[x]The main page shows 3 shelves for books. Each book is shown on the correct shelf, along with its title and author(s).
 
-[]Does the main page allow users to move books between shelves?
+[x]Does the main page allow users to move books between shelves?
 
-[]The main page shows a control that allows users to move books between shelves. The control should be tied to each book instance. The functionality of moving a book to a different shelf works correctly.
+[x]The main page shows a control that allows users to move books between shelves. The control should be tied to each book instance. The functionality of moving a book to a different shelf works correctly.
 
-[]Does information persist between page refreshes?
+[x]Does information persist between page refreshes?
 
-[]When the browser is refreshed, the same information is displayed on the page.
+[x]When the browser is refreshed, the same information is displayed on the page.
 
 
 # Search Page SPECIFICATIONS
 
-[]Does the search page have a search input that lets users search for books?
+[x]Does the search page have a search input that lets users search for books?
 
-[]The search page has a search input field.
+[x]The search page has a search input field.
 
-[] The search page behaves correctly:
+[x] The search page behaves correctly:
 a) As the user types into the search field, books that match the query are displayed on the page, along with their titles and author(s). You can use throttle/debounce but are not required to do so.
 b) Search results are not shown when all of the text is deleted out of the search input box.
 c) Invalid queries are handled and prior search results are not shown.
@@ -49,9 +49,9 @@ e) The user is able to search for multiple words, such as “artificial intellig
 
 []If a book is assigned to a shelf on the main page and that book appears on the search page, the correct shelf should be selected on the search page. If that book's shelf is changed on the search page, that change should be reflected on the main page as well. The option "None" should be selected if a book has not been assigned to a shelf.
 
-[]Do selections made on the search page show up on the main page?
+[x]Do selections made on the search page show up on the main page?
 
-[]When an item is categorized on the search page and the user navigates to the main page, it appears on that shelf in the main page.
+[x]When an item is categorized on the search page and the user navigates to the main page, it appears on that shelf in the main page.
 
 #Routing SPECIFICATIONS
 

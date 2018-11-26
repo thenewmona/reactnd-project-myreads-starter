@@ -99,7 +99,15 @@ LOL, is this how this project is going to be til the end, you fix one thing and 
 
 Time to hit Google again :slightly_smiling_face:
 
+
 `×
 ←→1 of 3 errors on the page
 You should not use <Route> or withRouter() outside a <Router>
 ▶ 33 stack frames were collapsed.`
+
+Sara Krum [3 hours ago]
+the Udacity lessons have a good explanation of how to use <Route> they explain it for the contacts project.
+
+completed the router section, implemented my browser router 
+
+books move, I can search everything seems to be working fine 

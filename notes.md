@@ -33,3 +33,10 @@ got rid of the router error now need to fix this error
 ./src/App.js
 Module not found: `C:\Users\thene\Google Drive\GWG phase 2\GWGprojects\reactnd-project-myreads-starter\src\components\MainPage.js` does not match the corresponding path on disk `mainpage.js`.
 This error occurred during the build time and cannot be dismissed.
+
+Changed the camel casing for all the components, and now I am getting this error message 
+
+./src/components/MainPage.js
+104:36-45 "export 'default' (imported as 'BookShelf') was not found in './BookShelf'
+
+[Javascript ES6, export const vs export default](https://stackoverflow.com/questions/33611812/javascript-es6-export-const-vs-export-default)

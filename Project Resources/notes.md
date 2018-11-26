@@ -113,8 +113,10 @@ completed the router section, implemented my browser router
 books move, I can search everything seems to be working fine 
 
 
-TODO: 
+TODO: So that I can finish
+
 [] can't do multiple word search
 [] Images for blank books
 [] No author's 
 [] Service worker  
+[] multiple Linux books in the search 

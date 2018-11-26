@@ -111,3 +111,10 @@ the Udacity lessons have a good explanation of how to use <Route> they explain i
 completed the router section, implemented my browser router 
 
 books move, I can search everything seems to be working fine 
+
+
+TODO: 
+[] can't do multiple word search
+[] Images for blank books
+[] No author's 
+[] Service worker  

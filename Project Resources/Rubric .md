@@ -9,9 +9,9 @@ MyReads: A Book Lending App
 
 [x]The application was created with create-react-app and requires only npm install and npm start to get it installed and launched.
 
-[]Does the application include README with clear installation and launch instructions?
+[x]Does the application include README with clear installation and launch instructions?
 
-[]An updated README that describes the project and has instructions for installing and launching the project is included.
+[x]An updated README that describes the project and has instructions for installing and launching the project is included.
 
 
 
@@ -36,18 +36,18 @@ MyReads: A Book Lending App
 
 [x]The search page has a search input field.
 
-[x] The search page behaves correctly:
+[] The search page behaves correctly:
 a) As the user types into the search field, books that match the query are displayed on the page, along with their titles and author(s). You can use throttle/debounce but are not required to do so.
 b) Search results are not shown when all of the text is deleted out of the search input box.
 c) Invalid queries are handled and prior search results are not shown.
 d) The search works correctly when a book does not have a thumbnail or an author. (To test this, try searching for "poetry" and "biography").
-e) The user is able to search for multiple words, such as “artificial intelligence.”
+e) TODO: The user is able to search for multiple words, such as “artificial intelligence.”
 
 []Do the search results allow a user to categorize a book as “currently reading”, “want to read”, or “read”?
 
-[]Search results on the search page allow the user to select “currently reading”, “want to read”, or “read” to place the book in a certain shelf.
+[X]Search results on the search page allow the user to select “currently reading”, “want to read”, or “read” to place the book in a certain shelf.
 
-[]If a book is assigned to a shelf on the main page and that book appears on the search page, the correct shelf should be selected on the search page. If that book's shelf is changed on the search page, that change should be reflected on the main page as well. The option "None" should be selected if a book has not been assigned to a shelf.
+[X]If a book is assigned to a shelf on the main page and that book appears on the search page, the correct shelf should be selected on the search page. If that book's shelf is changed on the search page, that change should be reflected on the main page as well. The option "None" should be selected if a book has not been assigned to a shelf.
 
 [x]Do selections made on the search page show up on the main page?
 
@@ -55,7 +55,7 @@ e) The user is able to search for multiple words, such as “artificial intellig
 
 #Routing SPECIFICATIONS
 
-[]Does the main page link to the search page?
+[X]Does the main page link to the search page?
 
 []The main page contains a link to the search page. When the link is clicked, the search page is displayed and the URL in the browser’s address bar is /search.
 

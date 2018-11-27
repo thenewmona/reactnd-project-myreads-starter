@@ -86,7 +86,6 @@ Lestec [FEND] [9 minutes ago]
 Also im seeing that BookShelf is Not exported. (edited)
 
 
-
 Sara Krum [5 minutes ago]
 I would suggest changing the name of your files back to camelCase so you don't have to update all of your pages. and then make sure BookShelf and all other components have the export and the same name.
 
@@ -99,7 +98,6 @@ LOL, is this how this project is going to be til the end, you fix one thing and 
 
 Time to hit Google again :slightly_smiling_face:
 
-
 `×
 ←→1 of 3 errors on the page
 You should not use <Route> or withRouter() outside a <Router>
@@ -108,6 +106,18 @@ You should not use <Route> or withRouter() outside a <Router>
 Sara Krum [3 hours ago]
 the Udacity lessons have a good explanation of how to use <Route> they explain it for the contacts project.
 
+Crystal [1 hour ago]
+For the books without an author, you need to have a fallback. I did a "No Image" image. It wont pass without that. They dont seem to require a no author fallback though.
+
+thenewmona {FEND}Michigan [3 hours ago]
+@drunkenkismet [FEND] Project Coach Hello
+thanks so much for helping working on MyReads right now
+Want to submit tonight, so for the SW is it better to just create the files myself or someone was telling me that there is a built in one
+I am not seeing SW as part of the Rubric so is it even required
+
+
+drunkenkismet [FEND] Project Coach [2 hours ago]
+No, it's not required, at least as far as I can find. @thenewmona {FEND}Michigan The focus of the app is on implementing React principles :slightly_smiling_face:. If one uses the starter code, they're not included. If one goes the other way and uses `create-react-app` from scratch, though, SWs are a possibility if one chooses to include them (but they're not necessary for P6).
 completed the router section, implemented my browser router 
 
 books move, I can search everything seems to be working fine 

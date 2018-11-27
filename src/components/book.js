@@ -19,6 +19,7 @@ class Book extends React.Component {
           </div>
         </div>
         <div className="book-title">{this.props.book.title}</div>
+        {/* NO AUTHORS RYAN'S VIDEO STARTS @ 35:00 https://www.youtube.com/watch?v=acJHkd6K5kI */}
         <div className="book-authors">{this.props.book.authors || "Author unknown"}</div>
       </div>
     );

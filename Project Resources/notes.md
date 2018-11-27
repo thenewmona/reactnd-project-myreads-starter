@@ -116,7 +116,13 @@ books move, I can search everything seems to be working fine
 TODO: So that I can finish
 
 [] can't do multiple word search
+regex needed to make this a controlled component 
+
 [] Images for blank books
 [] No author's 
-[] Service worker  
+[] Service worker 
 [] multiple Linux books in the search 
+
+[How to customize service workers with create-react-app](https://medium.freecodecamp.org/how-to-customize-service-workers-with-create-react-app-4424dda6210c)
+
+[How to build a PWA with Create-React-App and custom service workers](https://medium.freecodecamp.org/how-to-build-a-pwa-with-create-react-app-and-custom-service-workers-376bd1fdc6d3)

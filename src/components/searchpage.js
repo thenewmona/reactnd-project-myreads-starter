@@ -41,6 +41,7 @@ class SearchPage extends React.Component {
       }
     })
   }
+  //need to figure out how to do multiword search Danny suggest RegEX 
 
   render() {
     const {updateBookshelf}= this.props;

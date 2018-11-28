@@ -136,3 +136,12 @@ regex needed to make this a controlled component
 [How to customize service workers with create-react-app](https://medium.freecodecamp.org/how-to-customize-service-workers-with-create-react-app-4424dda6210c)
 
 [How to build a PWA with Create-React-App and custom service workers](https://medium.freecodecamp.org/how-to-build-a-pwa-with-create-react-app-and-custom-service-workers-376bd1fdc6d3)
+
+11/27/2018
+
+Still need to fix my search, studying Regex 
+went through Rodrick's tutorial 
+Did Udacity's state management lessons
+installed Regex and sortby 
+
+11/28/2018

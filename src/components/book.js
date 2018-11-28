@@ -8,6 +8,7 @@ class Book extends React.Component {
         <div className ="book-top">{
           }
           <div className ="book-cover" style={{ width: 128, height: 193, backgroundImage:  `url("${this.props.book.imageLinks && this.props.book.imageLinks.thumbnail}")` }}></div>
+          
           <div className ="book-shelf-changer">
             <select value = {this.props.book.shelf || "none"} onChange={(e) => (this.props.updateBookshelf(this.props.book, e.target.value))}>
               <option value="move" disabled>Move to...</option>
@@ -20,7 +21,7 @@ class Book extends React.Component {
         </div>
         <div className="book-title">{this.props.book.title}</div>
         {/* NO AUTHORS RYAN'S VIDEO STARTS @ 35:00 https://www.youtube.com/watch?v=acJHkd6K5kI */}
-        <div className="book-authors">{this.props.book.authors || "Author unknown"}</div>
+        <div className="book-authors">{this.props.book.authors || "Author unknown "}</div>
       </div>
     );
   }

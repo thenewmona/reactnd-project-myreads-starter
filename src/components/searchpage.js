@@ -31,10 +31,11 @@ class SearchPage extends React.Component {
       if(results.error) {
         return this.setState({results: [] })
       }
+      //books displaying correct filter status 1:10 https://www.youtube.com/watch?v=acJHkd6K5kI&=&feature=youtu.be
       else {
         results.forEach(book => {
-          let newset = this.state.books.filter(Book => Book.id === book.id)
-            if(newset[0]) { book.shelf = newset[0].shelf }               
+          let fltr = this.state.books.filter(Book => Book.id === book.id)
+            if(fltr[0]) { book.shelf = fltr[0].shelf }               
         });
       return this.setState({results: results })
       }

@@ -145,3 +145,36 @@ Did Udacity's state management lessons
 installed Regex and sortby 
 
 11/28/2018
+good morning everyone
+So close , just some minor details, but Rubric specific
+I am not understanding how to get my app to do the multiWord search
+Someone suggested Regexp, someone else suggestion Udacity's stateManagement lesson
+
+I think I am in tutorial and walkthrough overload, and nothing is making sense
+
+Any help, suggestions, or ideas would greatly be appreciated
+
+https://github.com/thenewmona/reactnd-project-myreads-starter
+GitHub
+thenewmona/reactnd-project-myreads-starter
+Starter Code for the React MyReads Project. Contribute to thenewmona/reactnd-project-myreads-starter development by creating an account on GitHub.
+GitHub
+thenewmona/reactnd-project-myreads-starter
+Starter Code for the React MyReads Project. Contribute to thenewmona/reactnd-project-myreads-starter development by creating an account on GitHub.
+ 
+
+
+Crystal [4 hours ago]
+The specific Udacity lesson is State Management Concept 7. They use https://www.npmjs.com/package/escape-string-regexp
+Which is just another type of package similar to regexp
+
+The lecture video for escaping special characters is about halfway down the page, and about five minutes long.  It'll get you where you need to be with spaces though, in my opinion it's the best bet.
+npm
+escape-string-regexp
+Escape RegExp special characters
+ 
+
+
+thenewmona {FEND}Michigan [3 hours ago]
+@Crystal thanks
+https://www.npmjs.com/package/escape-string-regexp

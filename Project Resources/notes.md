@@ -242,3 +242,28 @@ Here's what I have
        return this.setState({results: [] })
      }`
 Thanks
+
+## Review 1 Notes 
+`src/components/mainpage.js` lines 1 - 5
+
+SUGGESTION
+We can refactor this component into a stateless component ( pure function ). If a component does not directly manage or manipulate
+state, it should be a stateless component. Knowing when to use stateless components vs. class components would be beneficial
+to app maintenance as well as performance.
+A stateless component example :
+
+const MyComponent = () => { // insert props as arguments here if any
+    return (
+             {/* JSX code here */}
+    )
+}
+
+`src/App.js`
+REQUIRED
+Currently, when the app starts, the following error occurs-
+
+Screenshot from 2018-11-29 18-38-00.png
+
+Instead of ./components/MainPage, ./components/mainpage should be used. This is because components directory does not have MainPage.js. It has mainpage.js.
+
+Make sure to fix import statement in other js files also. Example- In the line below, instead of ./components/SearchPage, import SearchPage from './components/searchpage'; should be used.

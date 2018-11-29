@@ -1,5 +1,5 @@
 import React from 'react'
-import Book from './books'
+import Book from './Book'
 
 function BookShelf(props) {
   return (

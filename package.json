@@ -1,5 +1,9 @@
-"homepage": "https://yourUserName.github.io/",
 {
+  "homepage": "https://yourUserName.github.io/",
+  "version": "0.1.0",
+  "private": true,
+  "homepage":"https://thenewmona.github.io/reactnd-project-myreads-starter/."
+},
   "dependencies": {
     "escape-string-regexp": "^1.0.5",
     "gh-pages": "^2.0.1",

@@ -24,8 +24,19 @@ You will be to see and change the books from currently reading, want to read, an
 
 There is also a search page which can be accessed by clicking the + sign in the lower right hand corner. 
 
+## Contributions and Resources 
+
 For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
 
-Notes,Contributions, and Resources used  for this project are located in the Project Resource.
+Notes,Contributions, and Resources used for this project are located in the Project Resource folder.
 
 The notes.md contains details of what issues I came across, and the resources that I used to resolve these issues, along with my slack and Student hub chats. 
+
+## Known Issues 
+
+I have tried every which way, and reached out to slack, FB, and the student hub. 
+I can not get my multi-word search to work to save my life. 
+I installed `npm install --save escape-string-regexp sort-by`, tried to use that, then everyone suggested the `.trim` method. 
+I have it setup, but it is not working. 
+Suggestions would be greatly appreciated. 
+Thanks 

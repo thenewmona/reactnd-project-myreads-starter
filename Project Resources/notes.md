@@ -178,3 +178,67 @@ Escape RegExp special characters
 thenewmona {FEND}Michigan [3 hours ago]
 @Crystal thanks
 https://www.npmjs.com/package/escape-string-regexp
+
+11/29/2018
+HOOT HOOT
+need some help , almost done with project 6, I just can not get my search to do multi word search.
+I have installed the escapeRegExp, and the sortby
+Following the video, but I am just breaking my code like no other
+
+Common sense tells me to put it in my search component
+
+I think I have watched one to many videos and walkthroughs
+
+this is what the mentor in the study hall suggested
+
+`hi @ramonaS it should not be necessary to use regex for this project. Multi-word search is handled by the back-end, I believe, so you should be able to just put it into the query API`
+
+Not really understanding what he is saying
+
+any suggestions or easier way to do this is greatly appreciated (edited)
+
+
+Christa [8 hours ago]
+Hmm… I never had an issue with that, but I didn’t use any RegExp
+
+
+Christa [8 hours ago]
+I think it was handled by the search() function
+
+
+Christa [8 hours ago]
+This is mine:
+```searchBooks = async function(query) {
+        if (query === "") {
+          this.setState({books: []})
+        }
+      
+        else {
+      
+        console.log(query);
+        let results = await BooksAPI.search(query);
+          if (results.length) {
+        this.setState({books: results});
+          }
+          else {
+            this.setState({books: []})
+          }
+        }
+};```
+
+
+AileneHoang [FEND] [6 hours ago]
+I didn't use regex either. I just used trim to trim any trailing white space `BooksAPI.search(this.state.query.trim())`.
+
+
+Also sent to the channel
+thenewmona {FEND}Michigan [< 1 minute ago]
+@AileneHoang [FEND] I used `.trim`  also, but it is not working for me
+I can't hit the space bar or anything.
+I must have my `.trim`  in the wrong place or something
+Here's what I have
+`BooksAPI.search(this.state.query.trim()).then(results => {
+     if(results.error) {
+       return this.setState({results: [] })
+     }`
+Thanks

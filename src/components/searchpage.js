@@ -2,7 +2,8 @@ import React from 'react'
 import {Link} from 'react-router-dom'
 import * as BooksAPI from '../BooksAPI'
 import Book from './Book'
-
+// import escapeRegExp from 'escape-string-regexp'
+// import sortBy from 'sort-by'
 
 class SearchPage extends React.Component {
 
@@ -23,10 +24,28 @@ class SearchPage extends React.Component {
     this.setState({query: query.trim()}, this.submitSearch);
   }
 
+  searchBooks = async function(query) {
+    if (query === "") {
+      this.setState({books: []})
+    }
+  
+    else {
+  
+    console.log(query);
+    let results = await BooksAPI.search(query);
+      if (results.length) {
+    this.setState({books: results});
+      }
+      else {
+        this.setState({books: []})
+      }
+    }
+};
   submitSearch() {
     if(this.state.query === '') {
       return this.setState({results: [] })
     }
+    
     BooksAPI.search(this.state.query.trim()).then(results => {
       if(results.error) {
         return this.setState({results: [] })
@@ -41,6 +60,8 @@ class SearchPage extends React.Component {
       }
     })
   }
+
+ 
   //need to figure out how to do multiword search Danny suggest RegEX 
 
   render() {

@@ -267,3 +267,11 @@ Screenshot from 2018-11-29 18-38-00.png
 Instead of ./components/MainPage, ./components/mainpage should be used. This is because components directory does not have MainPage.js. It has mainpage.js.
 
 Make sure to fix import statement in other js files also. Example- In the line below, instead of ./components/SearchPage, import SearchPage from './components/searchpage'; should be used.
+
+`src/components/searchpage.js`
+
+Using query.trim() will remove the whitespace from the end of the query. Since the search input value is this.state.query, as soon as the user enters a whitespace character in the search input box, it will be removed here and the value of the input box will be without the whitespace character.
+This prevents the user from searching for multiple word query like artificial intelligence.
+To solve this, we can simply use-
+
+this.setState({query}, this.submitSearch);

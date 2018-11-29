@@ -3,7 +3,7 @@ import React from 'react'
 import * as BooksAPI from './BooksAPI'
 import './App.css'
 import {Route} from 'react-router-dom'
-import MainPage from './components/mainpage';
+import MainPage from './components/MainPage';
 import SearchPage from './components/SearchPage';
 
 //?bookshelf.js and books.js not sure if i want to create 3 different components want to read, read, currently reading

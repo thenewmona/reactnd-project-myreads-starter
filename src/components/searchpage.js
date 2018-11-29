@@ -23,7 +23,9 @@ class SearchPage extends React.Component {
   updateQuery = (query) => {
     this.setState({query}, this.submitSearch);
   }
-y
+
+  searchBooks = async function(query) {
+    if (query === "") {
       this.setState({books: []})
     }
   

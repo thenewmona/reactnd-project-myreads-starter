@@ -16,7 +16,7 @@ They also included the BooksAPI's and the backend server configurations.
 
 To get the application up and running, you can either clone or down my code [Mona's MyReads Project](https://github.com/thenewmona/reactnd-project-myreads-starter) 
 
-Then you will do a npm install, followed by a npm start in the command line or terminal. 
+Then you will do a  **npm install**, followed by a **npm start** in the command line or terminal. 
 
 This will start the application, and let you manuever around the library, and change the books.
 

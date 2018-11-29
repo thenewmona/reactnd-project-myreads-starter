@@ -21,7 +21,7 @@ class SearchPage extends React.Component {
   }
 
   updateQuery = (query) => {
-    this.setState({query: query.trim()}, this.submitSearch);
+     this.setState({query}, this.submitSearch);//removing query.trim per reviewers intstructions
   }
 
   searchBooks = async function(query) {

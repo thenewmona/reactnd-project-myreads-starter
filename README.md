@@ -3,7 +3,7 @@
 This is the 6th out of 7 projects for the Udacity program. 
 It is a library app, that helps sort your books into three catogories. 
 
-This project's primary focus was getting to know REACT better. 
+This project's primary focus was getting to know **REACT** better. 
 
 Udacity provided us with the starter code, but we did have the option to do this from scratch.
 

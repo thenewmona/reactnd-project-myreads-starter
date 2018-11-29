@@ -1,3 +1,4 @@
+"homepage": "https://yourUserName.github.io/",
 {
   "dependencies": {
     "escape-string-regexp": "^1.0.5",
@@ -15,6 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
+    "predeploy": "yarn run build",
+"deploy": "gh-pages -b master -d build",
     "eject": "react-scripts eject"
   },
   "browserslist": [

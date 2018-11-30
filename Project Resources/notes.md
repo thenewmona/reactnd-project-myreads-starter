@@ -275,3 +275,59 @@ This prevents the user from searching for multiple word query like artificial in
 To solve this, we can simply use-
 
 this.setState({query}, this.submitSearch);
+
+11/30/2018
+
+thenewmona {FEND}Michigan [Today at 6:17 AM]
+I am now totally lost
+I resubmitted my project, after making changes that the first reviewer said I needed to make,
+My Second review comes back as plagiarism violation
+
+The only thing is that the person that they say that I copied, first of all I have never heard of, and when I looked at his stuff, It absolutely does not look anything like mine, it is not even remotely structured like mine
+
+Also I always thought that as long as you sighted where you got you code from you were ok
+
+This is what they wrote
+
+`Submitting code which doesn't belong to you is a violation of the Honor Code, whether you've referenced a walkthrough/tutorial or another student's work.
+The Study Jams are meant to help students involved help each other understand a subject, not provide a source of code for project submission. `
+`Crediting the source does not legitimize the act.`
+
+Any ideas, on what to do?
+
+I have no idea how to fix this
+
+
+3 replies
+Sarah Cervantes [1 hour ago]
+First, take a deep breath :hugging_face:. Second, are you able to resubmit it as is? If you are, I would suggest writing a note expressing that you did not plagiarize and believe the previous reviewer made a mistake marking your project in that way. Telling them what you told us here might allow for an exception to be made. I’m so sorry you are having to go through this.
+
+
+Also sent to the channel
+thenewmona {FEND}Michigan [1 hour ago]
+Thanks @Sarah yeah I am able to resubmit
+`Your submission's code should be written after you've noted project requirements, understood what's required and are able to produce the necessary algorithms to complete the project.`
+`Take the time to review the rubric and seek assistance from the relevant Study Group if necessary.`
+`Rewrite the application with your own code and resubmit the project.`
+
+If you look at my project I have a whole folder on just resources, my notes.md, Is almost every slack conversation I had.
+someone sent me some code snippet to help me with the no cover , no author issues
+It is in my resource folder.
+Most of the walkthrough's I actually participated in , not just watched Doug actually called me out in his walkthrough, so you can see that I participated
+
+Here's my repo
+https://github.com/thenewmona/reactnd-project-myreads-starter
+
+I don't even know where to restart, I have spent almost a month on this project
+GitHub
+thenewmona/reactnd-project-myreads-starter
+Starter Code for the React MyReads Project. Contribute to thenewmona/reactnd-project-myreads-starter development by creating an account on GitHub.
+ 
+
+
+Madison Estabrook [FEND Grad] [1 minute ago]
+@thenewmona {FEND}Michigan I'm not sure if this helps, but I don't understand why 'await' is needed on line 35, any of line 36, or the naming on line 59 of searchpage.js. Here's my code, which passed https://github.com/madisonestabrook/reactnd-project-myreads-starter/blob/master/src/componets/pages/SearchPage.js
+GitHub
+madisonestabrook/reactnd-project-myreads-starter
+Contribute to madisonestabrook/reactnd-project-myreads-starter development by creating an account on GitHub.
+ 

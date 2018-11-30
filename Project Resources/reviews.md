@@ -75,3 +75,31 @@ The following error is shown when the app starts-
 Screenshot from 2018-11-29 18-38-00.png
 
 See code review for more details.
+thenewmona {FEND}Michigan [5 minutes ago]
+@Madison Estabrook [FEND Grad] going to my repo to check my commit history and see why or if `await` is suppose to be there
+But your right it does not look right
+Thanks
+
+
+thenewmona {FEND}Michigan [< 1 minute ago]
+this was recommended to me, because I was having some promise issues
+But I got a thumbs up from the reviewer on that one
+https://snag.gy/EDzvFh.jpg (203 kB)
+
+
+thenewmona {FEND}Michigan [< 1 minute ago]
+Here's the article that was sent to me
+https://hackernoon.com/6-reasons-why-javascripts-async-await-blows-promises-away-tutorial-c7ec10518dd9
+Hacker Noon
+6 Reasons Why JavaScript’s Async/Await Blows Promises Away (Tutorial)
+In case you missed it, Node now supports async/await out of the box since version 7.6. If you haven’t tried it yet, here are a bunch of…
+Reading time
+----------------
+6 min read
+
+(40 kB)
+Mar 25th, 2017 at 12:55 PM
+
+
+thenewmona {FEND}Michigan [< 1 minute ago]
+checking on the next item :slightly_smiling_face:
